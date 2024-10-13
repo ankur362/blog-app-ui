@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+.header{
+    margin-top:60px ;
+}
+.titles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Lora", serif;
+   
+    color: #444;
+    margin-top: 100px;
+}
+.titles1{
+     font-family: 'Lora';
+    font-weight: 400 ;
+    position: absolute;
+    top: 60px;
+    font-size: 20px;
+}
+.titles2{
+    font-family: 'Lora';
+    font-weight: 500 ;
+    position: absolute;
+    top: 90px;
+    font-size:100px ;
+}
+.headerimg{
+width: 100%;
+height: 450px;
+margin-top: 8px;
+object-fit: cover;
+}

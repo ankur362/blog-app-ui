@@ -1,0 +1,49 @@
+
+.logout-container {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    background-color: #f7f7f7; 
+    text-align: center;
+    background: url("https://img.freepik.com/free-photo/close-up-laptop-pencils-printer-tray-with-blank-paper-yellow-background_23-2147875590.jpg?w=740&t=st=1727712160~exp=1727712760~hmac=512bdd82f445fc2202f3ae7ea267e2b936035e81bcca843e9c742160e9e36443");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+  }
+  
+  .logout-message {
+    font-size: 2rem; 
+    color: #ff4d4d;
+  }
+  
+  .logout-submessage {
+    font-size: 1.2rem; 
+    color: #555; 
+    margin: 10px 0;
+  }
+  
+  .logout-buttons {
+    margin-top: 20px; 
+  }
+  
+  .logout-button {
+    display: inline-block; 
+    padding: 10px 20px; 
+    margin: 5px; 
+    background-color: #333333; 
+    color: white;
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+  }
+  
+  .logout-button:hover {
+    background-color: #800020; 
+  }
+  
